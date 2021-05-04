@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Smart Lab-Add New Employee</title>
+    <title>Smart Lab- REVENUE</title>
 
     <!-- Custom fonts for this template-->
     <link href="css/all.min.css" rel="stylesheet" type="text/css">
@@ -31,10 +31,9 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    
+                <div>
+                    <img src="img/logo.png" class="img-fluid">
                 </div>
-                <div class="sidebar-brand-text mx-3">Smart Lab</div>
             </a>
 
             <!-- Divider -->
@@ -49,23 +48,8 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <!-- <div class="sidebar-heading">
-                Interface
-            </div> -->
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="employee.html" data-toggle="" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-user-check"></i>
-                    <span>Employee</span>
-                </a>
-            </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+             <!-- Nav Item - Pages Collapse Menu -->
+             <li class="nav-item">
                 <a class="nav-link collapsed" href="user-list.html" data-toggle="" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-id-card"></i>
@@ -80,17 +64,17 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="revenue-list.html" data-toggle="" data-target="#collapseTwo"
+                <a class="nav-link collapsed" href="salary-list.html" data-toggle="" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-dollar-sign"></i>
-                    <span>Revenue</span>
+                    <i class="fab fa-stripe-s"></i>
+                    <span>Salary</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="cost-list.html" data-toggle="" data-target="#collapseTwo"
+                <a class="nav-link collapsed" href="memo-list.html" data-toggle="" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-balance-scale-left"></i>
-                    <span>Cost</span>
+                    <i class="fas fa-sticky-note"></i>
+                    <span>Memo</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -101,10 +85,10 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="memo-list.html" data-toggle="" data-target="#collapseTwo"
+                <a class="nav-link collapsed" href="cost-list.html" data-toggle="" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-sticky-note"></i>
-                    <span>Memo</span>
+                    <i class="fas fa-balance-scale-left"></i>
+                    <span>Cost</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -116,10 +100,10 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="salary-list.html" data-toggle="" data-target="#collapseTwo"
+                <a class="nav-link collapsed" href="revenue-list.html" data-toggle="" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fad fa-sack"></i>
-                    <span>Salary</span>
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>Revenue</span>
                 </a>
             </li>
 
@@ -227,83 +211,35 @@
 
                   <!-- Page Heading -->
                   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                      <h1 class="h3 mb-0 text-gray-800">Edit Employee</h1>
+                      <h1 class="h3 mb-0 text-gray-800">View Revenue</h1>
                   </div>
                   <!-- Content Row -->
 
                   <div class="row">
                     <form class="row g-3">
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName" value="xyz" placeholder="">
-                        </div>
-                        <div class="col-4">
-                            <label for="formFileSm" class="form-label">Small file input example</label>
-                            <input class="form-control" id="formFileSm" type="file">
+                        <div class="col-6">
+                            <label for="inputId" class="form-label">REVENUE ID</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="REVENUE 586" >
                         </div>
                         <div class="col-md-6">
-                          <label for="inputDOB" class="form-label">Date Of Birth</label>
-                          <input type="date" class="form-control" id="inputDOB">
+                            <label for="inputDOB" class="form-label">DATE OF ENTRY</label>
+                            <input type="date" class="form-control" id="inputDOB" placeholder="05 MAY 2021" >
                         </div>
                         <div class="col-md-6">
-                          <label for="inputNID" class="form-label">NID</label>
-                          <input type="number" class="form-control" id="inputNID">
-                        </div>
-                        <div class="col-6">
-                          <label for="inputFname" class="form-label">Father's Name</label>
-                          <input type="text" class="form-control" id="inputFname" placeholder="">
-                        </div>
-                        <div class="col-6">
-                          <label for="inputMname" class="form-label">Mother's Name</label>
-                          <input type="text" class="form-control" id="inputMname" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputMnumber" class="form-label">Mobile number-1</label>
-                            <input type="number" class="form-control" id="inputMnumber" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputMnumber2" class="form-label">Mobile number-2</label>
-                            <input type="number" class="form-control" id="inputMnumber2" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputEmail" class="form-label">Email-1</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputEmail2" class="form-label">Email-2</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputPreAdd" class="form-label">Present Address</label>
-                            <input type="text" class="form-control" id="inputPreAdd" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputPerAdd" class="form-label">Permanent Address</label>
-                            <input type="text" class="form-control" id="inputPerAdd" placeholder="">
+                            <label for="inputMT" class="form-label">REVENUE FROM</label>
+                            <input type="number" class="form-control" id="inputNID" placeholder="SOFTWARE DEVELOPMENT" >
                         </div>
                         <div class="col-md-6">
-                            <label for="inputJdate" class="form-label">Joining Date</label>
-                            <input type="date" class="form-control" id="inputJdate">
+                            <label for="inputMT" class="form-label">PAYEE</label>
+                            <input type="number" class="form-control" id="inputNID" placeholder="BLUE TRANS LOGISTICS" >
                         </div>
                         <div class="col-md-6">
-                            <label for="inputBlood" class="form-label">Blood Group</label>
-                            <input type="text" class="form-control" id="inputBlood">
+                            <label for="inputMT" class="form-label">PAYEMENT METHOD</label>
+                            <input type="number" class="form-control" id="inputNID" placeholder="CASH" >
                         </div>
                         <div class="col-6">
-                            <label for="inputRname" class="form-label">Reference's Name</label>
-                            <input type="text" class="form-control" id="inputRname" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputRnumber" class="form-label">Reference's Mobile number</label>
-                            <input type="number" class="form-control" id="inputRnumber" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputRemail" class="form-label">Reference's Email</label>
-                            <input type="email" class="form-control" id="inputRemail" placeholder="">
-                        </div>
-                        <div class="col-6">
-                            <label for="inputStatus" class="form-label">Status</label>
-                            <input type="text" class="form-control" id="inputStatus" placeholder="">
+                            <label for="inputMnumber2" class="form-label">AMOUNT</label>
+                            <input type="number" class="form-control" id="inputMnumber2" placeholder="5000" >
                         </div>
                         <div class="col-6 mt-3">
                             <button class="btn btn-success" type="button">Update</button>

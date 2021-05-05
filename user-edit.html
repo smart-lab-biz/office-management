@@ -217,10 +217,15 @@
                   <div class="row">
                     <form class="row g-3">
                         <div class="col-12">
+                            <label for="eID" class="form-label">Employee ID</label>
+                            <input type="text" class="form-control" id="eID" placeholder="E-001" disabled>
+                          </div>
+                          
+                        <div class="col-12">
                             <label for="firstName" class="form-label">First Name*</label>
                             <input type="text" class="form-control" id="firstName" value="Tiger" disabled placeholder="">
                         </div>
-                        >
+                        
                         <div class="col-12">
                             <label for="lastName" class="form-label">Last Name*</label>
                             <input type="text" class="form-control" id="lastName" value="Nixon" disabled placeholder="">
@@ -233,13 +238,25 @@
                         
                         <div class="col-12">
                           <label for="password1" class="form-label">Password*</label>
-                          <input type="password" class="form-control" id="password1" placeholder="">
+                          <input type="text" class="form-control" id="password1" placeholder="">
                         </div>
                         
                         <div class="col-12">
                             <label for="password2" class="form-label">Confirm Password*</label>
-                          <input type="password" class="form-control" id="password2" placeholder="">
+                          <input type="text" class="form-control" id="password2" placeholder="">
                         </div>
+                        <div class="col-12">
+                            <br>
+                        </div>
+
+                        <div class="col-12">
+                            <label for="status">User Status:</label>
+                            <select name="status" id="status">
+                                <option value="enable">Enable</option>
+                                <option value="disable">Disable</option>
+                            </select>
+                        </div>
+                        
                         
                         <div class="col-6 mt-3">
                             <button class="btn btn-success" type="button">Update</button>
@@ -248,7 +265,7 @@
                             
                         </div>
                         <div class="col-1 mt-3">
-                            <button class="btn btn-secondary" type="button"><a href="user-list.html">Cancel</a></button>
+                            <button class="btn btn-secondary" type="button">Cancel</button>
                         </div>
                         
                       </form>

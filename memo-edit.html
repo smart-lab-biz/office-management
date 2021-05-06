@@ -227,11 +227,35 @@
                         </div>
                         <div class="col-8">
                             <label for="inputName" class="form-label">Description</label>
-                            <ul>
-                                <li>Marker: 500</li>
-                                <li>Internet: 1000</li>
-                                <li> Food: 3000</li>
-                            </ul>
+                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
+                                    <th>Product Name</th>
+                                    <th>Quantity</th>
+                                    <th>product Unit Price</th>
+                                    <th>Total Price</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="text" class="form-control" id="inputName" value="Marker" disabled></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="5" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="40" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="200"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control" id="inputName" value="Coffee" disabled></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="1" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="500" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="500"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control" id="inputName" value="Milk" disabled></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="1" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="200" ></td>
+                                        <td><input type="number" class="form-control" id="inputName" value="200"></td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
                         </div>
                         <div class="col-8">
                             <label for="inputName" class="form-label">Total Amount</label>

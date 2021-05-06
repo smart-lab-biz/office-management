@@ -209,58 +209,91 @@
                 </nav>
                 <!-- End of Topbar -->
                 <div class="container-fluid">
-
-                  <!-- Page Heading -->
-                  <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                      <h1 class="h3 mb-0 text-gray-800">Memo View</h1>
-                  </div>
                   <!-- Content Row -->
 
                   <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-7">
+                        <h1 class="h3 mb-0 text-gray-800">Memo Details</h1>
+                    </div>
+                    <div class="col-2"></div>                     
+                    <div class="col-12"><hr></div>
+
                     <form class="row g-3">
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Memo Title</label>
-                            <input type="text" class="form-control" id="inputName" value="xyz" placeholder="Marker Pen" disabled>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Memo Type</label>
-                            <input type="text" class="form-control" id="inputName" value="xyz" placeholder="Miscellaneous" disabled>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Description</label>
-                            <ul>
-                                <li>Marker: 500</li>
-                                <li>Internet: 1000</li>
-                                <li> Food: 3000</li>
-                            </ul>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Total Amount</label>
-                            <input type="text" class="form-control" id="inputName" value="4500" disabled>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Date</label>
-                            <input type="text" class="form-control" id="inputName" value="" placeholder="10/12/2020" disabled>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Requested By</label>
-                            <input type="text" class="form-control" id="inputName" value="" placeholder="Admin Assistant" disabled>
-                        </div>
-                        <div class="col-8">
-                            <label for="inputName" class="form-label">Approved By</label>
-                            <input type="text" class="form-control" id="inputName" value="" placeholder="Admin" disabled>
-                        </div>
-                        
-                        <div class="col-6 mt-3">
-                            <button class="btn btn-success" type="button">Print</button>
+
+                        <div class="col-1"></div>
+                        <div class="col-5">
+                            <p><strong>Memo Title:</strong> Miscellaneous</p>
                         </div>
                         <div class="col-5">
-                            
+                            <p><strong>Memo Type:</strong>Miscellaneous</p>
+                        </div>
+                        <div class="col-1"></div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10">
+                            <label for="inputName" class="form-label"><strong>Description</strong></label>
+                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
+                                    <th>Product Name</th>
+                                    <th>Quantity</th>
+                                    <th>product Unit Price</th>
+                                    <th>Total Price</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Marker</td>
+                                        <td>5</td>
+                                        <td>40</td>
+                                        <td>200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coffee</td>
+                                        <td>1</td>
+                                        <td>200</td>
+                                        <td>200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Milk</td>
+                                        <td>1</td>
+                                        <td>100</td>
+                                        <td>100</td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+                        </div>
+                        <div class="col-1"></div>
+
+                        <div class="col-1"></div>
+                        <div class="col-5">
+                            <p><strong>Total:</strong> 500</p>
+                        </div>
+                        <div class="col-5">
+                            <p><strong>Date:</strong>20/11/2020</p>
+                        </div>
+                        <div class="col-1"></div>
+
+                        <div class="col-1"></div>
+                        <div class="col-5">
+                            <p><strong>Requested By:</strong> Admin Assistant</p>
+                        </div>
+                        <div class="col-5">
+                            <p><strong>Approved By:</strong>Admin</p>
+                        </div>
+                        <div class="col-1"></div>
+                        
+                        <div class="col-1"></div>
+                        <div class="col-5 mt-3">
+                            <button class="btn btn-primary" type="button">Print</button>
+                        </div>
+                        <div class="col-3">
+
                         </div>
                         <div class="col-1 mt-3">
-                            <button class="btn btn-primary" type="button">Done</button>
+                            <button class="btn btn-primary" type="button">Back</button>
                         </div>
-                        
+                        <div class="col-2"></div>
                       </form>
                   </div>
 

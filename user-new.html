@@ -223,7 +223,12 @@
                     <form class="row g-3">
                         <div class="col-12">
                             <label for="eID" class="form-label">Employee ID*</label>
-                            <input type="text" class="form-control" id="eID" value="" placeholder="">
+                                <select name="status" id="status">
+                                    <option value="enable">E-001</option>
+                                    <option value="disable">E-002</option>
+                                    <option value="disable">E-003</option>
+                                    <option value="disable">E-004</option>
+                                </select>
                         </div>
 
                         <div class="col-12">
@@ -251,7 +256,6 @@
                           <input type="password" class="form-control" id="password2" placeholder="">
                         </div>
 
-                        <div class="col-12 ">
                             <div class="col-12">
                                 <label for="status">User Status:</label>
                                 <select name="status" id="status">
@@ -259,7 +263,6 @@
                                     <option value="disable">Disable</option>
                                 </select>
                             </div>
-                        </div>
                         
                         <div class="col-6 mt-3">
                             <button class="btn btn-success" type="button">Create</button>
@@ -268,7 +271,7 @@
                             
                         </div>
                         <div class="col-1 mt-3">
-                            <button class="btn btn-secondary" type="button">Cancel</button>
+                            <button class="btn btn-secondary" type="button">Back</button>
                         </div>
                         
                       </form>

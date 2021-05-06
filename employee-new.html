@@ -217,6 +217,10 @@
 
                   <div class="row">
                     <form class="row g-3">
+                        <div class="col-6"></div>
+                        <div class="col-6">
+                            <label for="inputName" class="form-label">Employee ID: E-001</label>
+                        </div>
                         <div class="col-6">
                             <label for="inputName" class="form-label">Name*</label>
                             <input type="text" class="form-control" id="inputName" placeholder="">
@@ -270,9 +274,18 @@
                             <label for="inputJdate" class="form-label">Joining Date*</label>
                             <input type="date" class="form-control" id="inputJdate">
                         </div>
-                        <div class="col-md-6">
-                            <label for="inputBlood" class="form-label">Blood Group*</label>
-                            <input type="text" class="form-control" id="inputBlood">
+                        <div class="col-md-6 mt-5">
+                                <label for="status">Blood Group*</label>
+                                <select name="status" id="status">
+                                    <option value="enable">A+</option>
+                                    <option value="disable">A-</option>
+                                    <option value="disable">B+</option>
+                                    <option value="disable">B-</option>
+                                    <option value="disable">O+</option>
+                                    <option value="disable">O-</option>
+                                    <option value="disable">AB+</option>
+                                    <option value="disable">AB-</option>
+                                </select>
                         </div>
                         <div class="col-6">
                             <label for="inputRname" class="form-label">Reference's Name*</label>
@@ -345,7 +358,7 @@
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Back</button>
                     <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
